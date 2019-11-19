@@ -1,0 +1,80 @@
+* {box-sizing: border-box; 
+} 
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+h4 {
+    text-align: left;
+    font: 13px Roboto;
+    letter-spacing: 1.2px;
+    opacity: 1;
+    text-transform: uppercase;
+    letter-spacing: 1.15px;
+}
+
+h3 {
+    font: Bolder 30px Montserrat;
+    opacity: 1;
+    line-height: 1.5;
+    
+}
+
+h2 {
+    font: Bolder 25px Montserrat;
+    text-align: center;
+}
+
+h1 {
+    text-align: left;
+    font: bolder 40px Montserrat;
+    text-transform: lowercase;
+    opacity: 1;
+
+}
+
+p { font: Regular 17px Montserrat;
+    text-align:left;
+
+}
+header {
+    background-image: url('images/orangewall.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+}
+
+.headertext-portfolio {
+    position: absolute;
+    top: 150px;
+	left: 69px;
+    width: 350px;
+}
+
+.block-one, .block-two, .block-three, .block-four {
+    color: black;
+    height: 200px;
+    padding: 30px 10px;
+    padding-left: 15px;
+    
+}
+
+.block-one {
+    background-color:#dfddc7;
+   
+}
+.block-two {
+    background-color:#FFFFFF;   
+}
+
+.block-three {
+    background-color:#dfddc7;
+
+}
+
+@media (min-width: 375px) and (max-width: 1024px) {
+    
+}
